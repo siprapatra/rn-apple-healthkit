@@ -47,6 +47,35 @@
         @"BloodGlucose" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierBloodGlucose],
         // Sleep
         @"SleepAnalysis" : [HKObjectType categoryTypeForIdentifier:HKCategoryTypeIdentifierSleepAnalysis],
+        @"oxygenSaturation" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierOxygenSaturation],
+
+        @"forcedVitalCapacity" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierForcedVitalCapacity],
+
+        @"forcedExpiratoryVolume1" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierForcedExpiratoryVolume1],
+
+        @"peakExpiratoryFlowRate" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierPeakExpiratoryFlowRate],
+
+        @"allergyRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierAllergyRecord],
+        @"conditionRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierConditionRecord],
+        @"immunizationRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierImmunizationRecord],
+        @"labResultRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierLabResultRecord],
+        @"medicationRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierMedicationRecord],
+        @"procedureRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierProcedureRecord],
+        @"vitalSignRecord": [HKObjectType clinicalTypeForIdentifier:HKClinicalTypeIdentifierVitalSignRecord],
+
+        @"electrodermalActivity" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierElectrodermalActivity],
+        @"inhalerUsage" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierInhalerUsage],
+        @"insulinDelivery" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierInsulinDelivery],
+        @"numberOfTimesFallen" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierNumberOfTimesFallen],
+        @"peripheralPerfusionIndex" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierPeripheralPerfusionIndex],
+
+        @"walkingHeartRateAverage" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierWalkingHeartRateAverage],
+        @"restingHeartRate" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierRestingHeartRate],
+
+        @"fitzpatrickSkinType" : [HKObjectType characteristicTypeForIdentifier:HKCharacteristicTypeIdentifierFitzpatrickSkinType],
+        @"heartRateVariabilitySDNN" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierHeartRateVariabilitySDNN],
+
+        @"VO2Max" : [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierVO2Max],
         // Mindfulness
         @"MindfulSession" : [HKObjectType categoryTypeForIdentifier:HKCategoryTypeIdentifierMindfulSession],
     };
